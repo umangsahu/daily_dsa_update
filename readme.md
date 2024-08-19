@@ -2,4 +2,6 @@
 
 - ##  starting with arrays
   1. [basic arrays problem](https://www.youtube.com/watch?v=sNrLlmOIn-c)
+     -   (44:06) mini-max in array
+     
 
