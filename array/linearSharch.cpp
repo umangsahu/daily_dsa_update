@@ -2,21 +2,18 @@
 
 using namespace std;
 
-int binarySearch()
+int linearSearch()
 {
     int size = 20;
     int key;
     cout<<"Enter your key"<<endl;
     cin >> key;
-
     int array[size] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
-
     int startPoint = 0;
     int endPoint = size - 1;
 
     while (startPoint <= endPoint)
     {
-
         int mid = (startPoint + endPoint) / 2;
 
         if (array[mid] == key)
@@ -40,6 +37,6 @@ int binarySearch()
 int main()
 {
 
-   cout<<binarySearch()<<endl;
+   cout<<linearSearch()<<endl;
     return 0;
 }
